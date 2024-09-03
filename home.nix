@@ -7,13 +7,21 @@
   # manage.
   home.username = "marcus";
   home.homeDirectory = "/home/marcus";
-  programs.git.enable = true;
+
+  # NEOVIM
   programs.neovim = {
     enable = true;
     defaultEditor = true;
     viAlias = true;
     vimAlias = true;
     vimdiffAlias = true;
+  };
+
+  # GIT
+  programs.git = {
+    enable = true;
+    userName = "Marcus M Oo";
+    userEmail = "mmxo5813@gmail.com";
   };
 
   # Fastfetch
@@ -53,13 +61,6 @@
       "discord"
       "vscode"
     ];
-
-  # GIT
-  programs.git = {
-    enable = true;
-    userName = "Marcus M Oo";
-    userEmail = "mmxo5813@gmail.com";
-  }
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
