@@ -1,5 +1,6 @@
 mod:
 {
+  "${mod}+d" = "exec rofi -show drun";
   "${mod}+b" = "exec firefox";
   "${mod}+Return" = "exec kitty";
   "${mod}+Shift+Return" = "exec xterm";
