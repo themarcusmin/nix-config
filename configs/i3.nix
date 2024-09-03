@@ -12,8 +12,8 @@
       window.border = 0;
 
       gaps = {
-        inner = 30;
-        outer = 5;
+        inner = 25;
+        outer = 0;
       };
 
       keybindings = import ./i3-keybindings.nix "Mod4";
