@@ -24,7 +24,7 @@
 
       startup = [
         { command = "exec firefox"; }
-	{ command = "exec kitty"; }
+	      { command = "exec kitty"; }
         {
           command = "exec i3-msg workspace 1";
           always = true;
@@ -36,7 +36,7 @@
           notification = false;
         }
         {
-          command = "${pkgs.feh}/bin/feh --bg-scale ~/background.png";
+          command = "exec feh --bg-scale ~/background.png";
           always = true;
           notification = false;
         }
