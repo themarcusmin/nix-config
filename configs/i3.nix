@@ -4,9 +4,9 @@
   xsession.windowManager.i3 = {
     enable = true;
     package = pkgs.i3-gaps;
-    config = {
+    config = let
       modifier = "Mod4";
-      
+    in {
       bars = [ ];
 
       window.border = 0;
@@ -16,7 +16,7 @@
         outer = 0;
       };
 
-      keybindings = import ./i3-keybindings.nix "Mod4";
+      keybindings = import ./i3-keybindings.nix modifier;
 
       assigns = {
         "2: web" = [{ class = "^Firefox$"; }];
