@@ -12,7 +12,7 @@
       window.border = 0;
 
       gaps = {
-        inner = 15;
+        inner = 30;
         outer = 5;
       };
 
