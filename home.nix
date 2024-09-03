@@ -53,6 +53,14 @@
       "discord"
       "vscode"
     ];
+
+  # GIT
+  programs.git = {
+    enable = true;
+    userName = "Marcus M Oo";
+    userEmail = "mmxo5813@gmail.com";
+  }
+
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
