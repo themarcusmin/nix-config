@@ -34,8 +34,8 @@
     enable = true;
     extensions = with pkgs.vscode-extensions; [
       dracula-theme.theme-dracula
-      vscodevim.vim
       yzhang.markdown-all-in-one      
+      golang.go
     ];
   };
 
@@ -60,6 +60,7 @@
     builtins.elem (pkgs.lib.getName pkg) [
       "discord"
       "vscode"
+      "postman"
     ];
 
   # This value determines the Home Manager release that your configuration is
@@ -79,6 +80,12 @@
     htop
     discord
     feh
+    # Development
+    gcc
+    go
+    sqlite
+    docker
+    postman
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
