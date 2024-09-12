@@ -61,6 +61,7 @@
       "discord"
       "vscode"
       "postman"
+      "obsidian"
     ];
 
   # This value determines the Home Manager release that your configuration is
@@ -86,6 +87,10 @@
     sqlite
     postman
     nodejs
+
+    # Notes
+    obsidian
+
     # Recreation
     mgba
     # # It is sometimes useful to fine-tune packages, for example, by applying
